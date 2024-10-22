@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Teko:wght@300..700&display=swap');
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  position: absolute
+}
+
+h1 {
+  font-family: "Orbitron";
+  font-weight: 500;
+  font-size: 400%;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  opacity: 60%;
+}
+
+p {
+  font-family: "teko";
+  font-weight: 300;
+  font-size: 30px;
+
+}
+
+#long {
+  opacity: 0%;
+}
+
+.roundRectangle {
+  opacity: 10%;
+}
