@@ -1,4 +1,4 @@
-import '/style.css';
+//import '/style.css';
 import * as THREE from 'three';
 //import { OrbitControls } from 'three/examples/controls/OrbitControls';
 //import { GLTFLoader } from 'three/examples/loaders/GLTFLoader';
@@ -54,6 +54,7 @@ let imageTexture1 = new THREE.TextureLoader().load('images/1.jpg'); //H
 //imageTexture4.generateMipmaps = false;
 
 //create a rounded rectangle
+
 let roundedMesh = roundedRectangle(imageTexture1, 108, 54);
 roundedMesh.position.set(-25, 100, 8);
 scene.add(roundedMesh);
@@ -82,6 +83,7 @@ scene.add(VroundedMesh1);
 let VroundedMesh2 = roundedRectangle(imageTexture7, 67.5, 105);
 VroundedMesh2.position.set(-95, 80, 4);
 scene.add(VroundedMesh2);
+
 
 const travelBg = new THREE.TextureLoader().load('images/bg1.png');
 scene.background = travelBg;
