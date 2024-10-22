@@ -22,20 +22,22 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize( window.innerWidth, window.innerHeight );
 
- 
-//renderer.render( scene, camera );
- 
-//const gridHelper = new THREE.GridHelper(200, 50);
-//light cone to help center stuff!!!!!!!!!
-//const light = new THREE.PointLight(0xfffff);
-//const lightHelper = new THREE.PointLightHelper(light);
-//const axesHelper = new THREE.AxesHelper;
-//scene.add(gridHelper, lightHelper, axesHelper);
+//window.addEventListener("resize", onWindowresize, false);
+
+//window.addEventListener('resize', () => {
+    //camera.aspect = window.innerWidth / window.innerHeight;
+    //camera.updateProjectionMatrix();
+   // renderer.setSize(window.innerWidth, window.innerHeight);
+    //renderer.setPixelRatio(window.devicePixelRatio);
+//});
+
+//camera.aspect = desiredWidth / desiredHeight;
+//camera.updateProjectionMatrix();
 
  
-//const controls = new OrbitControls(camera, renderer.domElement);
+renderer.render( scene, camera );
  
- 
+
 ////// END OF SETUP //////
  
 // Load Image texture for mapping
@@ -47,12 +49,6 @@ let imageTexture5 = new THREE.TextureLoader().load('images/5.jpg'); //H
 let imageTexture6 = new THREE.TextureLoader().load('images/6.jpg'); //V
 let imageTexture7 = new THREE.TextureLoader().load('images/7.jpg'); //V
 let imageTexture1 = new THREE.TextureLoader().load('images/1.jpg'); //H
-
-//quality(?)
-//imageTexture1.minFilter = THREE.NearestFilter;
-//imageTexture2.minFilter = THREE.NearestFilter;
-//imageTexture3.minFilter = THREE.NearestFilter;
-//imageTexture4.generateMipmaps = false;
 
 //create a rounded rectangle
 
@@ -113,12 +109,8 @@ function animate() {
     //torus.rotation.z += 0.01;
     renderer.render(scene, camera);
 }
-window.addEventListener('resize', () => {
-    camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectionMatrix();
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(window.devicePixelRatio);
-});
+
+
 // start the three.js loop
 animate();
 
