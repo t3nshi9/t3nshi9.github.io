@@ -21,8 +21,9 @@ const renderer = new THREE.WebGLRenderer({
  
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize( window.innerWidth, window.innerHeight );
+
  
-renderer.render( scene, camera );
+//renderer.render( scene, camera );
  
 //const gridHelper = new THREE.GridHelper(200, 50);
 //light cone to help center stuff!!!!!!!!!
@@ -112,6 +113,12 @@ function animate() {
     //torus.rotation.z += 0.01;
     renderer.render(scene, camera);
 }
- 
+window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(window.devicePixelRatio);
+});
 // start the three.js loop
 animate();
+
