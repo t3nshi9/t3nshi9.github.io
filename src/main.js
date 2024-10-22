@@ -1,8 +1,8 @@
 import '/style.css';
 import * as THREE from 'three';
-//import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { xor } from 'three/webgpu';
+//import { OrbitControls } from 'three/examples/controls/OrbitControls';
+//import { GLTFLoader } from 'three/examples/loaders/GLTFLoader';
+//import { xor } from 'three/webgpu';
 import { roundedRectangle } from './customShapes.js';
  
 ////// Setup //////
@@ -32,7 +32,7 @@ renderer.render( scene, camera );
 //scene.add(gridHelper, lightHelper, axesHelper);
 
  
-const controls = new OrbitControls(camera, renderer.domElement);
+//const controls = new OrbitControls(camera, renderer.domElement);
  
  
 ////// END OF SETUP //////
