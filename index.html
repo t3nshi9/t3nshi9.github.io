@@ -1,50 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <script type="importmap">
-      {
-      "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@v0.163.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.163.0/examples/jsm/"
-        }
-      }
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script type="module" src="src/main.js"> </script>
-    <title>Vite App</title>
-  </head>
-  <body>
-    <canvas id="bg"></canvas>
-  
-  <main>
-    <div class="jumbotron text-center">
-    <h1>Travel</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <title>Homepage</title>
+</head>
+<body id="travelbody">
+  <h1>Homepage</h1>
+  <!-- <ul>
+    <li> <a href="hobbies.html">hobbies</a></li>
+    <li> <a href="graphics.html">grapics</a></li>
+    <li> <a href="networking.html">networking</a></li>
+    <li> <a href="onlineworld.html">online world</a></li>
+    <li> <a href="techsystems.html">tech sys</a></li>
+    <li> <a href="travel.html">travel</a></li>
+    <li> <a href="webdevelopment.html">webdev</a></li>
+  </ul> -->
+  <div class="flex-container">
+    <div class="flex-item" onclick="location.href='techsystems.html';">Tech Systems</div>
+    <div class="flex-item" onclick="location.href='networking.html';">Networking</div>
+    <div class="flex-item" onclick="location.href='graphics.html';">Graphics</div>
+    <div class="flex-item" onclick="location.href='webdevelopment.html';">Webdevelopment</div>
+    <div class="flex-item" onclick="location.href='onlineworld.html';">OnlineWorld</div>
+    <div class="flex-item" onclick="location.href='travel.html';">Travel</div>
+    <div class="flex-item" onclick="location.href='hobbies.html';">Hobbies</div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-   <p> <i class="fa-solid fa-map-pin"></i> China</p> 
-    <p> <i class="fa-solid fa-map-pin"></i> Malaysia</p>
-    <p> <i class="fa-solid fa-map-pin"></i> Hong Kong</p>
-    <div class="col-md-12">
-    <p id="long">Lorem ipsum odor amet, consectetuer adipiscing elit. Ex habitant curae est elementum rutrum, sed tellus potenti. At ridiculus dui primis aenean vel. Dictum nascetur accumsan semper lobortis enim; quam feugiat malesuada. Vitae magna nec curae enim nascetur congue mattis. Elit hac ullamcorper feugiat vitae lobortis nec, bibendum adipiscing massa. Aptent sed consectetur ac taciti vitae feugiat sapien. Nascetur nibh dignissim senectus pretium potenti. Cursus ornare faucibus suspendisse ac ante volutpat justo faucibus. Nibh mi lacinia dignissim et, rhoncus magna parturient gravida.
-
-      Efficitur conubia conubia pretium; dolor morbi purus dolor. Turpis tempus risus sem tempus potenti. Purus maecenas conubia elementum sollicitudin mus fusce hac. Per luctus parturient; suscipit nam nascetur platea purus mauris nisi. Praesent accumsan facilisi imperdiet nulla massa posuere torquent tellus. Lacinia mi aenean consectetur augue euismod sapien imperdiet. Pharetra hac elit tortor laoreet arcu imperdiet semper erat etiam? Nunc non imperdiet praesent nullam magnis ridiculus amet. Faucibus cras pharetra suscipit inceptos eleifend duis.
-      
-      Magnis ad leo facilisis non eros viverra nam volutpat? Elit iaculis dignissim quisque convallis, libero eros sit pellentesque. Ridiculus litora tortor; venenatis suspendisse potenti sapien hac convallis. Primis laoreet pulvinar litora fringilla egestas? Interdum sagittis tellus curae facilisis congue elit nam. Morbi ultrices eu posuere posuere tempor quam. Parturient mauris eu; enim in eleifend nunc. Vehicula urna id taciti natoque netus nam litora. Nec phasellus sociosqu phasellus vehicula penatibus sapien quam luctus. Ornare efficitur nulla lacinia eleifend cras imperdiet amet.
-      
-      Duis efficitur cubilia dis massa malesuada nascetur. Cubilia neque nostra maecenas odio platea nulla donec? Facilisi pharetra curabitur gravida justo dignissim gravida. Tempor tempus potenti sollicitudin adipiscing ad morbi aliquam cras. Neque potenti suspendisse torquent rhoncus fusce ultrices ipsum. Arcu sit neque neque cursus ultrices sed elit vivamus. Augue lectus litora pellentesque inceptos ex rutrum ac.
-      
-      Id senectus ultricies venenatis vivamus, mauris conubia dis platea tempor. Non cubilia in ad; pharetra habitasse sociosqu. Vitae erat phasellus id aptent eu tortor id. Odio velit etiam efficitur facilisi himenaeos consequat cubilia vestibulum venenatis. Ut maximus condimentum integer ex malesuada sociosqu. Molestie scelerisque purus bibendum sociosqu scelerisque tristique amet.</p>
-      
-      <blockquote>
-      </main>
-    </div>
-    </body>
+    <script type="module" src="src/main.js"></script>
+</body>
 </html>
