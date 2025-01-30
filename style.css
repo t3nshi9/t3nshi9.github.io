@@ -24,12 +24,15 @@ ul {
 /* !!!!!!!!!!!!!!!!HOME PAGE!!!!!!!!!!!!!!!! */
 .flex-container {
   height: 100vh;
-  margin: 0;
+  width: 100vh;
+  /* margin: left auto;
+  margin: right auto; */
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;   
   align-items: center;
   justify-content: center;
   border: 2px solid #333;
+
 }
 
 .flex-item {
@@ -51,18 +54,31 @@ ul {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .flex-item:hover {
-  transform: scale(1.2); /* Makes the item grow 20% larger */
+  transform: scale(1.15); /* Makes the item grow 20% larger */
 }
 
-.fill {
-  width: 100%;
-  height: 100%;
-  background-color: lightgreen;
-}
  
+#bigBox {
+  width: calc(100% / 1 - 50px);
+  height: calc(100% / 3 - 50px);
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#bigBox:hover {
+  transform: scale(1.03, 1.2);
+}
+#homepagebody {
+  background-image: url('images/bghomepage.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
+/* HOME PAGE ENDS HEREEEEEEEEEEEEEEEEEEEEEEEE */
 
 
 
