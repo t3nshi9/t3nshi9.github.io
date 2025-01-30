@@ -1,88 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&family=Teko:wght@300..700&display=swap');
-
-h1 {
-  font-family: "Orbitron";
-  font-weight: 500;
-  font-size: 400%;
-  text-align: center;
-  padding: auto;
-  margin: auto;
-  opacity: 60%;
-  text-shadow: 2px 2px 0px #61678f;
+canvas {
+  position: fixed;
+  top : 0;
+  left : 0;
+  /* make the canvas the background */
+  z-index : -1;
 }
 
-p {
-  font-family: "teko";
-  font-weight: 300;
-  font-size: 30px;
-
-}
-
-ul {
-  font-family: 'Courier New', Courier, monospace;
-}
-/* !!!!!!!!!!!!!!!!HOME PAGE!!!!!!!!!!!!!!!! */
-.flex-container {
+/* TRAVEL CSS */
+#contact {
   height: 100vh;
-  width: 100vh;
-  /* margin: left auto;
-  margin: right auto; */
+  width: 100vw;
+  background-color: black;
+  margin: 0rem;
+  overflow: hidden;
+  user-select: none;
+}
+
+#image-container > .travelImage {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% 50%;
+}
+
+#image-container {
   display: flex;
-  flex-wrap: wrap;   
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #333;
-
+  gap: 4vmin;
+  position: absolute;
+  left: 50%; 
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
-.flex-item {
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #333;
-  width: calc(100% / 3 - 50px); /* Adjusts for gaps */
-  height: calc(100% / 3 - 50px);
-  margin: 20px;
-  box-sizing: border-box;
-  font-size: 20px;
-  transition: background-color 0.3s, transform 0.3s;
+#contactHeader {
+  user-select: none;
+  color: blue;
+  text-align: center;
 }
 
-
-.flex-container:hover .flex-item:not(:hover) {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.flex-item:hover {
-  transform: scale(1.15); /* Makes the item grow 20% larger */
-}
-
- 
-#bigBox {
-  width: calc(100% / 1 - 50px);
-  height: calc(100% / 3 - 50px);
-  margin-left: 35px;
-  margin-right: 35px;
-}
-
-#bigBox:hover {
-  transform: scale(1.03, 1.2);
-}
-#homepagebody {
-  background-image: url('images/bghomepage.png');
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
-
-/* HOME PAGE ENDS HEREEEEEEEEEEEEEEEEEEEEEEEE */
-
-
-
-/* !!!!!!!!!!!!!!!TRAVEL PAGE!!!!!!!!!!!!!!!!!!!! */
- img {
-  height: 230px;
-} 
