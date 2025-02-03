@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 canvas {
   position: fixed;
   top : 0;
@@ -34,7 +36,49 @@ canvas {
 
 #contactHeader {
   user-select: none;
-  color: blue;
+  color: white;
+  text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 400%;
+    font-weight: 400; 
+    font-style: normal;
+  margin-bottom: 0%;
+}
+
+#contactHeader2 {
+  user-select: none;
+  color: white;
+  text-align: center;
+    font-family:"Chakra Petch";
+    font-size: 140%;
+    font-weight: 300; 
+    font-style: normal;
+  margin-top: 0.2%;
+}
+
+#aboutMeBody {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 200vh; /* To ensure there's enough space to scroll */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  max-width: 600px;
   text-align: center;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

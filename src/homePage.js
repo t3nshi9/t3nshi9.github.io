@@ -112,8 +112,8 @@ window.addEventListener('mousedown', (event) => {
             case 'techSystems':
                 window.location.href = 'techSystems.html';
                 break;
-            case 'webdevelopment':
-                window.location.href = 'webdevelopment.html';
+            case 'aboutMe':
+                window.location.href = 'aboutme.html';
                 break;
             default:
                 console.log('Unknown cube clicked');

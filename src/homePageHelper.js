@@ -118,13 +118,13 @@ export function addButtonsToScene(scene) {
     cubeList.push(techSystems);
     scene.add(techSystems);
     
-    //add interactive webdevelopment cube
-    let webdevelopment = makeCube("images/theJoyOfGaming.jpg", 0, 4, 6);
-    webdevelopment.position.set(2.5, 21, -7);
-    webdevelopment.rotation.set(0, 0, 0.25);
-    webdevelopment.name = "webdevelopment";
-    cubeList.push(webdevelopment);
-    scene.add(webdevelopment);
+    //add interactive aboutme cube
+    let aboutMe = makeCube("images/theJoyOfGaming.jpg", 0, 4, 6);
+    aboutMe.position.set(2.5, 21, -7);
+    aboutMe.rotation.set(0, 0, 0.25);
+    aboutMe.name = "aboutMe";
+    cubeList.push(aboutMe);
+    scene.add(aboutMe);
     
     // Add a backplate to the cubes so you can't click through the arcade machine
     let backplate = makeCube("images/theJoyOfGaming.jpg", 0, 30, 30);
