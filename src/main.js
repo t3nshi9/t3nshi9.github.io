@@ -1,7 +1,6 @@
 import '/style.css';
 import * as THREE from 'three';
-import { OrbitControls } from './three/addons/controls/OrbitControls';
-// import { OrbitControls } from './path/to/three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { roundedRectangle } from './customShapes.js';
  
