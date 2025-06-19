@@ -72,4 +72,3 @@ track.addEventListener('touchend', () => {
     track.dataset.prevPercentage = track.dataset.percentage;
 });
 
-

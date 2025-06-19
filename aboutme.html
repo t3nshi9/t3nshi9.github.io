@@ -3,19 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
     <title>About Me</title>
-</head>
-<body id="aboutMeBody">
-    <!-- Your content goes here -->
-    <h1>Welcome to About Me</h1>
-    <p><a href="index.html">Homepage</a></p>
-    <div class="content">
-        <p class="reveal">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-        <p class="reveal">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-        <p class="reveal">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!</p>
-    </div>
-    <script src="aboutme.js"></script>
+    
+        <header>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <p></p>
+                        </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="webdev.html" class="nav-link">WEB DEV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="graphics.html" class="nav-link">GRAPHICS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="techsys.html" class="nav-link">TECH SYS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="networking.html" class="nav-link">NETWORKING</a>
+                        </li>
+                    <li class="nav-item">
+                        <a href="hobbies.html" class="nav-link">HOBBIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <p></p>
+                        </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <body id="aboutMeBody">
+        <script src="script.js"></script>
+            <div class="aboutMeCard">
+            <h1 id="aboutMeHeader">ABOUT<span class="aboutMeHeader2"> ME</span></h1>
+            <img src="images/nova.jpg" alt="Cat Photo" class="profile-pic">
+            <p id="aboutMeText">I am a 19 year old student with a passion for graphic design and web development. I enjoy problem solving as it allows me to learn new things and challenge myself. Outside of education I enjoy travelling, spending time with my cats and playing games! </p>
+            <a href="contact.html" class="button">Contact Me</a>
+            </div>
 </body>
-<!-- <script defer src="script.js"></script> Link to external JavaScript file -->
+
 </html>
