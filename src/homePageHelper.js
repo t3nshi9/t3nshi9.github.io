@@ -71,55 +71,55 @@ export function addButtonsToScene(scene) {
     // Create an array to store the cubes
     let cubeList = [];
     
-    let contact = makeCube("images/theJoyOfGaming.jpg", 0, 4, 20);
+    let contact = makeCube("images/mainPage/contactme.png", 0, 4, 20);
     contact.position.set(5.1, 11, 0);
     contact.rotation.set(0, 0, 0.25);
     contact.name = "contact";
     cubeList.push(contact);
     scene.add(contact);
     
-    //add interactive HOBBIES cube
-    let hobbies = makeCube("images/theJoyOfGaming.jpg", 0, 4, 6);
+    //add interactive HOBBIES game
+    let hobbies = makeCube("images/mainPage/hobbies.png", 0, 4, 6);
     hobbies.position.set(3.8, 16, 0);
     hobbies.rotation.set(0, 0, 0.25);
     hobbies.name = "hobbies";
     cubeList.push(hobbies);
     scene.add(hobbies);
     
-    //add interactive NETWORKING cube
-    let networking = makeCube("images/mainPage/NETWORKING.png", 0, 4, 6);
+    //add interactive NETWORKING game
+    let networking = makeCube("images/mainPage/networking.png", 0, 4, 6);
     networking.position.set(3.8, 16, 7);
     networking.rotation.set(0, 0, 0.25);
     networking.name = "network";
     cubeList.push(networking);
     scene.add(networking);
     
-    //add interactive onlineWorld cube
-    let onlineWorld = makeCube("images/mainPage/ONLINE_WORLD.png", 0, 4, 6);
-    onlineWorld.position.set(3.8, 16, -7);
-    onlineWorld.rotation.set(0, 0, 0.25);
-    onlineWorld.name = "onlineWorld";
-    cubeList.push(onlineWorld);
-    scene.add(o);
+    //add interactive onlineWorld game
+    let webDev = makeCube("images/mainPage/webdev.png", 0, 4, 6);
+    webDev.position.set(3.8, 16, -7);
+    webDev.rotation.set(0, 0, 0.25);
+    webDev.name = "webDev";
+    cubeList.push(webDev);
+    scene.add(webDev);
     
-    //add interactive graphics cube
-    let graphics = makeCube("images/mainPage/Graphics.png", 0, 4, 6);
+    //add interactive graphics game
+    let graphics = makeCube("images/mainPage/graphics.png", 0, 4, 6);
     graphics.position.set(2.5, 21, 0);
     graphics.rotation.set(0, 0, 0.25);
     graphics.name = "graphics";
     cubeList.push(graphics);
     scene.add(graphics);
     
-    //add interactive techSystems cube
-    let techSystems = makeCube("images/theJoyOfGaming.jpg", 0, 4, 6);
+    //add interactive techSystems game poster
+    let techSystems = makeCube("images/mainPage/techsys.png", 0, 4, 6);
     techSystems.position.set(2.5, 21, 7);
     techSystems.rotation.set(0, 0, 0.25);
     techSystems.name = "techSystems";
     cubeList.push(techSystems);
     scene.add(techSystems);
     
-    //add interactive aboutme cube
-    let aboutMe = makeCube("images/theJoyOfGaming.jpg", 0, 4, 6);
+    //add interactive aboutme game
+    let aboutMe = makeCube("images/mainPage/aboutme.png", 0, 4, 6);
     aboutMe.position.set(2.5, 21, -7);
     aboutMe.rotation.set(0, 0, 0.25);
     aboutMe.name = "aboutMe";
