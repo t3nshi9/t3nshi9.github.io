@@ -126,7 +126,7 @@ export function addButtonsToScene(scene) {
     cubeList.push(aboutMe);
     scene.add(aboutMe);
     
-    // Add a backplate to the cubes so you can't click through the arcade machine
+    // Add a back to the cubes so you can't click through the arcade machine
     let backplate = makeCube("images/theJoyOfGaming.jpg", 0, 30, 30);
     backplate.position.set(3.7, 15, 0);
     backplate.rotation.set(0, 0, 0.25);

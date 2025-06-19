@@ -3,7 +3,7 @@ import * as THREE from 'three';
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { roundedRectangle } from './customShapes.js';
+import { roundedRectangle } from '../src/customShapes.js';
  
 ////// Setup //////
 // Load arcadeModel
