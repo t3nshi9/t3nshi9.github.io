@@ -6,26 +6,57 @@
     <link rel="stylesheet" href="style.css">
     <title>Contact me</title>
 </head>
-<div id="contactTitle">
-    <h1 id="contactHeader">CONTACT</h1>
-    <h2 id="contactHeader2">ME</h2>
-</div>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <p></p>
+                    </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webdev.html" class="nav-link">WEB DEV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="graphics.html" class="nav-link">GRAPHICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="techsys.html" class="nav-link">TECH SYS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="networking.html" class="nav-link">NETWORKING</a>
+                </li>
+                <li class="nav-item">
+                    <a href="hobbies.html" class="nav-link">HOBBIES</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutme.html" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <p></p>
+                    </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+<h1 id="contactHeader">CONTACT</h1>
+   <h2 id="contactHeader2">ME</h2>
 <body id="contact">
     <div id="image-container" data-mouse-down-at="0" data-prev-percentage="0">
-        <img id="email" class="travelImage" src="images/1.jpg" alt="" draggable="false" onclick="window.open ('mailto:laracorinna@outlook.com?subject=Portfolio%20' , '_blank');">
-        <img id="phone" class="travelImage" src="images/2.jpg" alt="" draggable="false" onclick="window.open ('https://api.whatsapp.com/send?phone=447376065888' , ' _blank');">
-        
-        <!-- LinkedIn image with onclick redirect -->
-        <img id="linkedin" class="travelImage" src="images/3.jpg" alt="" draggable="false" onclick="window.open('https://www.linkedin.com/in/lara-budnarowska/', '_blank');">
-        
-        <img id="github" class="travelImage" src="images/4.jpg" alt="" draggable="false" onclick="window.open('https://github.com/t3nshi9');">
-        <!-- <img class="travelImage" src="images/5.jpg" alt="" draggable="false">
-        <img class="travelImage" src="images/6.jpg" alt="" draggable="false">
-        <img class="travelImage" src="images/7.jpg" alt="" draggable="false"> -->
+        <img id="email" class="travelImage" src="images/email1.jpg" alt="china" draggable="false" onclick="window.open ('mailto:laracorinna@outlook.com?subject=Portfolio%20' , '_blank');">
+        <img id="phone" class="travelImage" src="images/whatsapp1.jpg" alt="malaysia" draggable="false" onclick="window.open ('https://api.whatsapp.com/send?phone=447376065888' , ' _blank');">
+        <img id="linkedin" class="travelImage" src="images/linkedin1.jpg" alt="hongkong" draggable="false" onclick="window.open('https://www.linkedin.com/in/lara-budnarowska/', '_blank');">
+        <img id="github" class="travelImage" src="images/github1.jpg" alt="china" draggable="false" onclick="window.open('https://github.com/t3nshi9');">
     </div>
-    <h3>Welcome to contact</h3>
-    <p><a href="index.html">Homepage</a></p>
+    <script src="script.js"></script>
 </body>
-<!-- <script defer src="script.js"></script> Link to external JavaScript file -->
-    <script type="module" src="src/contact.js"></script>
+
+<script src="contact.js"></script>
+
 </html>

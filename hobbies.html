@@ -3,13 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
-    <title>hobbies</title>
-</head>
-<body>
-    <!-- Your content goes here -->
-    <h1>Welcome to hobbies</h1>
-    <p><a href="index.html">Homepage</a></p>
-</body>
-<!-- <script defer src="script.js"></script> Link to external JavaScript file -->
-</html>
+    <link rel="stylesheet" href="style.css">
+    <title>Hobbies</title>
+
+    </head>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <p></p>
+                    </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="webdev.html" class="nav-link">WEB DEV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="graphics.html" class="nav-link">GRAPHICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="techsys.html" class="nav-link">TECH SYS</a>
+                    </li>
+                    <li class="nav-item">
+                    <a href="networking.html" class="nav-link">NETWORKING</a>
+                </li>
+                <li class="nav-item">
+                    <a href="aboutme.html" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <p></p>
+                    </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <body id="hobbiesBody">
+        <section id="hobbyRubik">
+            <div class="text-content">
+              <h1 id="hobbiesHeader">Hobbies</h1>
+              <section class="hobby hobby-row">
+                <div class="hobby-text float-down">
+                  <h2>Solving Rubik's Cubes</h2>
+                  <p>One of my favourite passtimes was learning how to solve a Rubik's cube. I really enjoy problem solving and am quite competitive so it became a lot of fun to try and beat my best time!</p>
+                </div>
+                <div class="hobby-image">
+                  <img src="images/rubixcube.jpg" alt="Rubik's Cube">
+                </div>
+              </section>
+              <section class="hobby hobby-row reverse">
+                <div class="hobby-text float-down">
+                  <h2>Travel</h2>
+                  <p>I love travelling as it allows me to experience things I otherwise wouldn't. I have visited quite a few countries but some of my favourites include; Italy, China, America, Spain and Malaysia</p>
+                </div>
+                <div class="hobby-image">
+                  <img src="images/6.jpg" alt="Travel">
+                </div>
+              </section>
+              <section class="hobby hobby-row">
+                <div class="hobby-text float-down">
+                  <h2>Gaming</h2>
+                  <p>I enjoy a variety of game generes from FPS to RPG's. I find gaming to be a nice way to unwind and relax. </p>
+                </div>
+                <div class="hobby-image">
+                  <img src="images/gaming.jpg" alt="Gaming">
+                </div>
+              </section>
+              </section>
+    </body>
+    <script src="hobbies.js"></script>
+    <script src="script.js"></script>
+    </html>
