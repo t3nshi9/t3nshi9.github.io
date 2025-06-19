@@ -103,14 +103,14 @@ window.addEventListener('mousedown', (event) => {
             case 'network':
                 window.location.href = 'networking.html';
                 break;
-            case 'onlineWorld':
-                window.location.href = 'onlineWorld.html';
+            case 'webDev':
+                window.location.href = 'webdev.html';
                 break;
             case 'graphics':
                 window.location.href = 'graphics.html';
                 break;
             case 'techSystems':
-                window.location.href = 'techSystems.html';
+                window.location.href = 'techsys.html';
                 break;
             case 'aboutMe':
                 window.location.href = 'aboutme.html';

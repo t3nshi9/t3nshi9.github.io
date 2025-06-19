@@ -100,7 +100,7 @@ export function addButtonsToScene(scene) {
     onlineWorld.rotation.set(0, 0, 0.25);
     onlineWorld.name = "onlineWorld";
     cubeList.push(onlineWorld);
-    scene.add(onlineWorld);
+    scene.add(o);
     
     //add interactive graphics cube
     let graphics = makeCube("images/mainPage/Graphics.png", 0, 4, 6);
