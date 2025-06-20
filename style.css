@@ -86,8 +86,7 @@ li{
 a{
     text-decoration: none;
     text-align: left;
-    color: #6b8b83;
-    outline: white;
+    color: #ffffff;
 }
 
 header {
@@ -119,6 +118,7 @@ header {
 .nav-link:hover{
     text-decoration: none;
     text-align: left;
+    text-shadow: 0px 0px 0px;
     background-image: linear-gradient( /*colour change */
     115deg,
     #ff0000,
@@ -245,6 +245,9 @@ header {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    /* -webkit-text-stroke: 0.2px #000; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 0 0 25px rgba(0, 0, 0, 0.2), 0 1px 10px rgba(0, 0, 0, 0.25);
+
 }
 
 .nav-item{
@@ -745,9 +748,10 @@ table tr:nth-child(even) td {
     padding-top: 80px;
     font-size: 60px;
     text-transform: uppercase;
-    color: #222;
+    color: #ffffff;
     letter-spacing: 2px;
     font-family: "Chakra Petch", sans-serif;
+    -webkit-text-stroke: 3.5px #ff0000;
 }
 
 #hobbiesBody {
@@ -827,6 +831,7 @@ background: linear-gradient(135deg, #9cbee2, #ffffff);
   
     .hobby-text h2 {
       font-size: 1.6rem;
+      -webkit-text-stroke: 2.5px #ff0000;
     }
   
     .hobby-text p {
