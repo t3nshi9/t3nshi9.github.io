@@ -86,7 +86,8 @@ li{
 a{
     text-decoration: none;
     text-align: left;
-    color: antiquewhite;
+    color: #6b8b83;
+    outline: white;
 }
 
 header {
@@ -99,12 +100,11 @@ header {
 
 
 .navbar{
-    min-height: 70px;
+  min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    
 }
 
 .nav-menu{
@@ -115,9 +115,6 @@ header {
 }
 
 
-/* .nav-link{
-    transition: 0.7s ease;
-} */
 
 .nav-link:hover{
     text-decoration: none;
@@ -138,7 +135,17 @@ header {
       background-size: 800% 100%; /*changes size of rainbow*/
       background-clip: text; /*makes the rainbow fit text*/
 
-      color: transparent;
+      color: transparent;.nav-link-wrapper {
+        position: relative;
+      }
+      
+      .nav-link {
+        position: relative;
+        z-index: 10;
+        color: white;
+        mix-blend-mode: difference;
+        pointer-events: auto;
+      }
       -webkit-text-fill-color: transparent;
 
       animation: rainbow-move 5s linear infinite;
@@ -745,6 +752,7 @@ table tr:nth-child(even) td {
 
 #hobbiesBody {
 background-color: #e2faff52;
+background: linear-gradient(135deg, #9cbee2, #ffffff);
 }
   
 .hobby {
@@ -841,8 +849,10 @@ background-color: #e2faff52;
 
 
 /*TECH SYS CSS*/
-
-
+/* 
+#techSysBody{
+background: linear-gradient(135deg, #eef4fa, #ffffff);
+} */
 
 #techSysHeader {
     color: #2a3055;
@@ -858,7 +868,6 @@ background-color: #e2faff52;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 20px;
-    
     
 }
   
